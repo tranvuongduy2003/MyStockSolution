@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="f3f93e79-45e4-4a05-8e52-dfd25831d071" name="Lab3DB@LAPTOP-GS7217LL Mapping">
+      <data-sources db="704793a9-c200-4597-b6cb-329f23449c16" />
+      <scope>
+        <node kind="database" qname="Lab3DB" />
+      </scope>
+    </mapping>
+  </component>
+</project>

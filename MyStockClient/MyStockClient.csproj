@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BusinessObjects\BusinessObjects.csproj" />
+      <ProjectReference Include="..\MyStockAPI\MyStockAPI.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Product\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Product\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Product\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Product\Index.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <AdditionalFiles Include="Views\Product\Create.cshtml" />
+      <AdditionalFiles Include="Views\Product\Details.cshtml" />
+      <AdditionalFiles Include="Views\Product\Edit.cshtml" />
+      <AdditionalFiles Include="Views\Product\Index.cshtml" />
+    </ItemGroup>
+
+</Project>
